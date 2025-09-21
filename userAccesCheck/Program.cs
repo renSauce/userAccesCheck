@@ -15,17 +15,17 @@ class Program
         // Validate null or empty inputs
         if (string.IsNullOrEmpty(username))
         {
-            Console.WriteLine("❌ Username cannot be empty.");
+            Console.WriteLine("Username cannot be empty.");
             return;
         }
         if (string.IsNullOrEmpty(password))
         {
-            Console.WriteLine("❌ Password cannot be empty.");
+            Console.WriteLine("Password cannot be empty.");
             return;
         }
         if (string.IsNullOrEmpty(inputUserId) || !uint.TryParse(inputUserId, out uint userId))
         {
-            Console.WriteLine("❌ Invalid User ID.");
+            Console.WriteLine(" Invalid User ID.");
             return;
         }
 
